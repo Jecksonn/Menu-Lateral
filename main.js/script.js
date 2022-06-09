@@ -1,11 +1,11 @@
 /*Script open and close configuration*/
 
-function openNav(){
+function abrirNav(){
     document.getElementById("menuOculto").style.width="250px";
     document.getElementById("principal").style.marginleft="250px";
 }
 
-function closeNav(){
+function fecharNav(){
     document.getElementById("menuOculto").style.width="0";
     document.getElementById("principal").style.marginleft="0";
 
